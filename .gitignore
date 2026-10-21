@@ -39,7 +39,7 @@ wheels/
 .coverage
 htmlcov/
 
-# Data files (tải tự động qua src/preprocessing.py, không đẩy dữ liệu lớn lên git)
+# Data files (tải tự động qua data/raw/fetch_data.py, không đẩy dữ liệu lớn lên git)
 data/raw/*.csv
 data/raw/*.parquet
 data/processed/*.csv
